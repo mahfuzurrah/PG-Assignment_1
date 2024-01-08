@@ -1,0 +1,439 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background: #fff;
+  font-family: "Merriweather", serif;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1320px;
+  margin: auto;
+  padding: 30px;
+}
+
+.section_title {
+  max-width: 768px;
+}
+
+.section_title h5 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.section_title h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 16px;
+}
+
+.section_title p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 20px;
+}
+
+/*========= Hero Banner =========*/
+
+.hero_banner .container {
+  height: 600px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../img/Banner\ Image.png");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero_banner .container .banner_text {
+  max-width: 632px;
+  text-align: center;
+}
+
+.hero_banner .container .banner_text h4 {
+  font-size: 32px;
+  color: white;
+}
+
+.hero_banner .container .banner_text h2 {
+  font-size: 72px;
+  color: white;
+  margin-top: 16px;
+}
+
+/*========= Categories =========*/
+
+.categories .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.categories h1 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+}
+
+.categories .section_title {
+  text-align: center;
+  margin: 48px 0;
+}
+
+.categories .section_title h5 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.categories .section_title h3 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/*========= welcome_banner =========*/
+
+.welcome_banner .container {
+  height: 600px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../img/Vectorrr.png");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 128px;
+}
+
+.welcome_banner .content_item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 48px;
+}
+
+.welcome_banner .content_item h2 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+
+.welcome_banner .content_item p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 24px 0 32px;
+}
+
+.welcome_banner .content_item a {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/*========= Join Now =========*/
+
+.join_now .container {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  height: 100%;
+  padding: 128px;
+}
+
+.join_now .container .text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.join_now .container .text li {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+.join_now .container .text li span {
+  color: #f00;
+}
+
+/*========= New Offer =========*/
+
+.new_offer .container .content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 70px;
+}
+
+.new_offer .container .content .text h5 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.new_offer .container .content .text h2,
+.new_offer .container .content .year h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 12px 0;
+}
+
+.new_offer .container .content .year h2 {
+  color: #f00;
+}
+
+.new_offer .container .content .text p {
+  margin-top: 16px;
+}
+
+.new_offer .container .content .offer_img {
+  min-width: 463px;
+  min-height: 463px;
+  border-radius: 500px;
+  border: 15px solid #f00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.new_offer .container .content .year img {
+  margin-top: 48px;
+}
+
+/*========= Sale =========*/
+
+.sale .section_title {
+  text-align: center;
+  max-width: 768px;
+  margin: auto;
+}
+
+.sale .section_title h2 {
+  margin-top: 16px;
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.sale .section_title h2 span {
+  color: #f00;
+}
+
+.sale .section_title p {
+  margin-top: 28px;
+}
+
+.sale .sale_img_area {
+  display: flex;
+  align-items: last baseline;
+  justify-content: space-between;
+  gap: 48px;
+  width: 1320px;
+  margin-top: 20px;
+}
+
+.sale .sale_img_area .gift_box {
+  width: 650px;
+  transform: translateY(25%);
+}
+
+.sale .sale_img_area .row_img img {
+  border-radius: 24px;
+}
+
+.sale .sale_img_area .img_dis {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: end;
+}
+
+.sale .sale_img_area .img_dis .discount_img {
+  position: absolute;
+  left: -35%;
+}
+
+/*========= Portfolio =========*/
+
+.portfolio .portfolio_items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 48px;
+}
+
+/*========= Portfolio =========*/
+
+.contact .container {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  padding: 40px;
+  height: 620px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact .container .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 850px;
+  row-gap: 40px;
+}
+
+.contact .container .content .text {
+  text-align: center;
+}
+
+.contact .container .content .text p {
+  margin-top: 20px;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.subscribe_from {
+  border-radius: 50px;
+  background: #fff;
+  border-radius: 100px;
+  overflow: hidden;
+  width: 648px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subscribe_from input {
+  padding: 20px 20px;
+  border: none;
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+}
+
+.subscribe_from input::placeholder {
+  font-size: 18px;
+}
+
+.subscribe_from .btn {
+  width: 225px;
+  height: 100%;
+  padding: 0 25px;
+  border: none;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/*========= Footer =========*/
+
+.footer {
+  background: #070211;
+}
+
+.footer .footer_item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.footer .footer_item p,
+.footer .footer_item h5,
+.footer .footer_item li {
+  color: white;
+}
+
+.footer .footer_item li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.footer .footer_item li:first-child {
+  margin-top: 0;
+}
+
+.footer .footer_item .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .footer_item .social_media {
+  flex-direction: column;
+}
+
+.footer .footer_item .social_media hr {
+  width: 100%;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.footer .footer_item .social {
+  margin: 32px 0;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.footer .footer_item h5 {
+  font-size: 18px;
+}
