@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap");
 
 * {
   margin: 0;
@@ -34,7 +34,7 @@ section {
 
 .section_title h2 {
   color: #070211;
-  font-family: Merriweather;
+  font-family: "Merriweather", serif;
   font-size: 48px;
   font-weight: 900;
   text-transform: capitalize;
@@ -43,7 +43,7 @@ section {
 
 .section_title p {
   color: rgba(7, 2, 17, 0.6);
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
@@ -89,7 +89,7 @@ section {
 .categories h1 {
   color: #f00;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 88px;
   font-weight: 700;
 }
@@ -102,7 +102,7 @@ section {
 .categories .section_title h5 {
   color: #f00;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
 }
@@ -110,7 +110,7 @@ section {
 .categories .section_title h3 {
   color: #070211;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 48px;
   font-weight: 700;
   text-transform: uppercase;
@@ -147,7 +147,7 @@ section {
 
 .welcome_banner .content_item p {
   color: rgba(255, 255, 255, 0.8);
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
@@ -157,7 +157,7 @@ section {
 .welcome_banner .content_item a {
   color: #fff;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
@@ -186,7 +186,7 @@ section {
 
 .join_now .container .text li {
   color: #070211;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 600;
   line-height: 56px;
@@ -208,7 +208,7 @@ section {
 
 .new_offer .container .content .text h5 {
   color: #f00;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
 }
@@ -216,7 +216,7 @@ section {
 .new_offer .container .content .text h2,
 .new_offer .container .content .year h2 {
   color: #070211;
-  font-family: Merriweather;
+  font-family: "Merriweather", serif;
   font-size: 48px;
   font-weight: 900;
   text-transform: capitalize;
@@ -257,7 +257,7 @@ section {
 .sale .section_title h2 {
   margin-top: 16px;
   color: #070211;
-  font-family: Merriweather;
+  font-family: "Merriweather", serif;
   font-size: 72px;
   font-weight: 900;
 }
@@ -339,7 +339,7 @@ section {
   margin-top: 20px;
   color: rgba(7, 2, 17, 0.6);
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
@@ -377,7 +377,7 @@ section {
   background: #f00;
   color: #fff;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 600;
   text-transform: capitalize;
